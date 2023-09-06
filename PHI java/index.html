@@ -3,17 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="login.css">
+    <title>momentum</title>
+    <link rel="stylesheet" href="javacss/login.css">
 </head>
 <body>
-    <form id="formlogin">
+    <form id="formlogin" class="hidden">
         <input required maxlength="19" type="text" placeholder="what's your name"/>
-        <!--<button>LogIn</button>-->
         <input type="submit" value="LogIn"/>
     </form>
     <h1 id="hello" class="hidden"></h1>
+
+    <h2 id="clock"></h2>
+
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+
 </body>
 <!--자바스크립트 불러오기-->
-<script src="script.js"></script>
+<script src="javascript/script.js"></script>
+<script src="javascript/greeting.js"></script>
+<script src="javascript/quote.js"></script>
+<script src="javascript/clock.js"></script>
+<script src="javascript/background.js"></script>
 </html>

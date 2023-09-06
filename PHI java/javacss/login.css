@@ -1,0 +1,12 @@
+
+.hello{
+    color: blue;
+}
+
+.active{
+    color: tomato;
+}
+
+.hidden{
+    display: none;
+}
