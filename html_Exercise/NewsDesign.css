@@ -1,0 +1,46 @@
+#paper{
+	width: 750px;
+	height: 900px;
+	background-color: rgb(245,220,183);
+}
+#news_title{
+	width: 500px;
+	margin-left: 125px;
+	background-color: rgb(239, 231, 219);
+}
+.title_font{
+	font-style: italic;
+	font-family: Arial;
+	margin-left: 85px;
+}
+#picture{
+	width: 400px;
+	height: 250px;
+	background: url(potter.PNG) no-repeat;
+	margin-left: 175px;
+}
+.font{
+	font-size: 15px;
+	font-family: Arial;
+	margin-left: 10px;
+}
+.font2{
+	font-family: Arial;
+	font-size: 17px;
+	font-weight: bold;
+	font-style: italic;
+}
+#text_box{
+	background-color: rgb(250, 253, 243);
+	width: 700px;
+	margin-left: 25px;
+}
+#reference_box{
+	width: 700px;
+	background-color: rgb(214, 198, 182);
+	margin-left: 25px;
+}
+h1{
+	display: inline;
+}
+/*4번 박혜인*/

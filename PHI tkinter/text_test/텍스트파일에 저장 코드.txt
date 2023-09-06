@@ -1,0 +1,7 @@
+save = open("save.txt", "a", encoding='UTF8')
+name = input("이름: ") + "\n"
+number = input("번호(혹은 전화번호): ") + "\n"
+save.write(name)
+save.write(number)
+save.write("\n")
+save.close()

@@ -1,0 +1,28 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+
+	color: #ffffff;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+li{
+	border: 5px solid white;
+	width: 200px;
+	background-color: #000000;
+	padding: 20px;
+	border-top: solid 5px #dfdfdf;
+	transition: background-color 0.2s margin-left 0.5s;
+}
+li:hover{
+	width: 250px;
+	background-color: red;
+	margin-left: 10px;
+	transform: skew(-20deg);
+}

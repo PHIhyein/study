@@ -1,0 +1,57 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+video{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+.logotext{
+	height: 30vh;
+	display: flex;
+	align-items: default;
+}
+.logotext h2{
+	font-size: 6em;
+	text-align: justify;
+	color: white;
+	z-index: 1;
+	mix-blend-mode: overlay;
+
+	background-color: black;
+}
+.text{
+	height: 60vh;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: default;
+}
+.text h4{
+	font-size: 2em;
+	text-align: justify;
+	color: white;
+	z-index: 3;
+	mix-blend-mode: difference;
+
+	transition: font-size 0.2s;
+}
+.text h4:hover{
+	font-size: 2.5em;
+}
+.li{
+	line-height: 50%;
+}
+a{
+	text-decoration: none;
+}
+
+/**/

@@ -1,0 +1,142 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+li{
+	width: 200px;
+	background-color: #000000;
+	padding: 20px;
+	border-top: solid 5px #dfdfdf;
+	transition: background-color 0.2s margin-left 0.5s;
+}
+li:hover{
+	width: 250px;
+	background-color: red;
+	margin-left: 10px;
+	transform: skew(-20deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#transition{
+	width: 444px;
+	height: 576px;
+	background-color: yellow;
+	transition-property: width background-color;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+	transition-delay: 0.01s;
+}
+#transition:hover{
+	width: 700px;
+	background-color: purple;
+}
+*/
+
+/*display:줄바꿈*/
+/*positon:pixed -> 스크롤 따라옴*/
+/*foat:좌우정렬*/
+/*clear:lt,rt,both -> float 속성 취소(안받기)*/
+/*deg:각도*/
+/*transform: rotate(ndeg)->시계방향 n도 회전*/
+/*transform: scale(x, y)->비율로 가로세로 x:y로 늘림*/
+/*transform: skew(x, y)->입체로 각도 기울임*/
+/*transform: translate(x,y)->x,y좌표로 이동(좌측상단이 중심)*/
+/*transition: 마우스 갖다대면 상태 변화*/
+/*	width: 300px;
+	height: 300px;
+	background-color: yellow;
+
+	transition-property: width background-color;
+	->변화를 주려는 속성
+	transition-duration: 3s;
+	->변화가 일어나는 시간
+	transition-timing-function: ease;
+	->변화 속도의 가속 감속 설정
+	-linear:등속도
+	-ease:가속->감속
+	-ease-in/out:시작점/끝점 변화 느림
+	-ease-in-out:시작점과 끝점 변화 느림
+	transition-delay: 1s;
+	->딜레이
+
+	#transition:hover
+	->#transition 영역에 마우스포인터 올렸을 때를 의미
+*/
+/*
+#ani{
+	width: 300px;
+	height: 300px;
+	background-color: yellow;
+	animation-name: changewidth;
+	->이름 지정
+	animation-duration: 3s;
+	->form~to 동작하는 데 걸리는 시간
+	animation-iteration-count: 6;
+	->재생 횟수
+	animation-timing-function: ease;
+	->속도 감속 설정
+	animation-direction: alternate;
+	->진행 방향
+	-normal:from~to로 진행
+	-reverse:to~from으로 진행
+	-alternate:from~to 후 to~from으로 진행
+	-alternate-reverse:to~from 후 from~to으로 진행
+	animation-delay: 2s;
+
+	animation: changewidth 3s 6 ease alternate 2s;
+	->한 줄 요약
+}
+
+@keyframes changewidth{
+	from{width: 300px;}
+	to{width: 60px;}
+
+	0%{}
+	50%{}
+	100{}
+
+	->구간 지정
+}
+*/
+/*
+ul{list-style: none;}
+->앞에 점 없애기
+a{text-decoration: none;}
+->밑줄 생기는거 없애기
+*/
+
+

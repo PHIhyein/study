@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="description" content="HTML 수업">
+<meta name="keywords" content="HTML, 0419">
+<meta name="author" content="PHI">
+
+<title>HTML 연습 0419_1</title>
+
+<style>
+	li{display: inline;}
+	h1{color: red;}
+</style>
+<!--display: html태그의 성격 변경할 수 있음-->
+<!--li{}:라인 지정/h1{}:h1 지정-->
+<!--인터널 방식:문서 안에 style태그를 사용하여 적용하는 방식-->
+
+<link rel="stylesheet" href = "style.css">
+<!--익스터널 방식:link태그를 사용하여 외부 css 파일을 연동하는 방식-->
+<!--File->Rayout->columns:2-->
+
+</head>
+
+<body>
+
+
+<h1 style="background-color: blue;">스타일 테스트</h1>
+<!--인라인 방식:태그 안에 style속성을 사용하여 적용하는 방식-->
+
+<h2>type 선택자:type을 정해놓음</h2>
+<h2 id="bg">id 선택자:html태그에 이름을 지어 선택하는 방식</h2>
+<!--함수같은 느낌?-->
+<!--id:큰 공간을 만들 때 사용-->
+
+<h3 class="size color">class 선택자:html태그에 별명을 지어 선택하는 방식</h3>
+<!--class:큰 공간 안에 작은 구역 만들 때 사용-->
+
+<!--class:요소에 여러개 지정 가능(중복 가능, 여러번 사용 할 때 좋음)/id:요소에 하나만 지정 가능(중복 불가능, 한 번만 사용 할 때 좋음)/ex:<p class class id>-->
+
+<header>
+<!--주로 회사 이름, 슬로건, 로고, 페이지 전환 버튼을 넣음-->
+	<h1>
+		<img src="school_logo.PNG" alt="학교 로고">
+	</h1>
+	<nav>
+	<!--버튼을 넣음-->
+		<ul>
+			<li><a href="https:https://ep.sen.sc.kr/">학교 홈페이지</a></li>
+			<li><a href="https:https://www.facebook.com/ep.sc.kr/">학교 페이스북</a></li>
+			<li><a href="https:https://www.instagram.com/ep.sc.kr/">학교 인스타그램</a></li>
+		</ul>
+	</nav>
+</header>
+
+
+<section>
+	<!--영역을 설정할 때 사용--> <!--태그 안에 반드시 h2~6 중 하나는 있어야 함-->
+	<h2>SERVICES</h2>
+	<aside>
+		<p>페이지 주요 내용과 연관성이 적은 정보를 담는 공간</p>
+	</aside>
+	<article>
+	<!--주요 내용이 담기는 공간-->
+		<h3>E-Commerce</h3>
+	</article>
+	<aside>
+		<p>페이지 주요 내용과 연관성이 적은 정보를 담는 공간</p>
+	</aside>
+</section>
+
+
+<!--<main role="main">-->
+<!--본문 내용 전체를 감쌀 때 사용/사이드바, 내비게이션링크, 저작권정보에 있는 내용을 입력할 수 있다/인터넷 익스플로러에서는 지원하지 않으므로 role 속성을 추가해서 따로 지정해야 함-->
+<!--	<section>
+		<h2>Portfolio</h2>
+		<article>
+			<h3>Project One</h3>
+		</article>
+	</section>
+</main>-->
+
+
+<nav>
+	<ul>
+		<li><a href="#">메뉴1</a></li>
+		<li><a href="#">메뉴2</a></li>
+		<li><a href="#">메뉴3</a></li>
+	</ul>
+</nav>
+
+
+<footer>
+	<p>연락처:010-9199-XXXX</p>
+	<p>이메일:XXXXX0@naver.com</p>
+	<p>저작권:PHI의 소유</p>
+</footer>
+
+
+</body>
+
+
+</html>

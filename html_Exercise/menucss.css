@@ -1,0 +1,45 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	background-color: gray;
+}
+ul{
+	list-style: none;
+	position: fixed;
+	top: 100px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+li{
+	width: 250px;
+	height: 40px;
+	background-color: #000000;
+	border-top: solid 7px gray;
+	transition: background-color 0.2s, margin 0.3s, transform 0.25s;
+}
+li:hover{
+	background-color: red;
+	margin-left: 30px;
+	transform: skew(-20deg);
+	width: 260px;
+	height: 45px;
+	font-weight: bold;
+}
+#cont1{
+	position: absolute;
+	left: 350px;
+	top: 100px;
+}
+.box{
+	width: 1300px;
+	background-color: white;
+	border: 25px solid white;
+}
+div{
+	text-align: center;
+}
