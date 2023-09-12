@@ -1,4 +1,5 @@
 const clock = document.querySelector("h2#clock");   //h2 clock 연결
+//const clock = document..getElementById("clock");
 
 
 function timeclock(){
