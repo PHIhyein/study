@@ -31,11 +31,3 @@ if (isusername === null){   //비어있음
     displayHello(isusername);
 }
 
-
-
-
-
-
-
-
-
