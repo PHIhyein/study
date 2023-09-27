@@ -1,43 +1,43 @@
 const quotes = [
     {
-        quote : "q1",
-        author : "a1"
+        quote : "나는 별 하나에 아름다운 말 한 마디씩 불러 봅니다.",
+        author : "\n-윤동주 <별 헤는 밤>"
     },
     {
-        quote : "q2",
-        author : "a2"
+        quote : "가장 뛰어난 예언자는 과거이다.",
+        author : "\n-바이런"
     },
     {
-        quote : "q3",
-        author : "a3"
+        quote : "나는 생각한다. 고로 존재한다.",
+        author : "\n-데카르트"
     },
     {
-        quote : "q4",
-        author : "a4"   
+        quote : "말은 행동의 거울이다.",
+        author : "\n-솔론"   
     },
     {
-        quote : "q5",
-        author : "a5"
+        quote : "영원히 살 것처럼 꿈을 꾸고 내일 죽을 것처럼 오늘을 살아라.",
+        author : "\n-제임스딘"
     },
     {
-        quote : "q6",
-        author : "a6"
+        quote : "사막이 아름다운 것은 어딘가에 샘을 숨기고 있기 때문이다.",
+        author : "\n-생택쥐베리"
     },
     {
-        quote : "q7",
-        author : "a7"
+        quote : "인간은 생각하는 갈대이다.",
+        author : "\n-파스칼"
     },
     {
-        quote : "q8",
-        author : "a8"
+        quote : "인생의 어려움은 선택에 있다.",
+        author : "\n-무어"
     },
     {
-        quote : "q9",
-        author : "a9"
+        quote : "그립다고 써보니 차라리 말을 말자 \n그냥 긴 세월이 지났노라고만 쓰자",
+        author : "\n-윤동주 <편지>"
     },
     {
-        quote : "q10",
-        author : "a10"
+        quote : "죽는 날까지 하늘을 우러러 \n한 점 부끄러움이 없기를",
+        author : "\n-윤동주 <서시>"
     }
 ];  //명언/작가 목록
 

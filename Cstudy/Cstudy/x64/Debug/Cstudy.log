@@ -1,2 +1,5 @@
-﻿  bj1005.cpp
-  Cstudy.vcxproj -> C:\PHIgit\Cstudy\x64\Debug\Cstudy.exe
+﻿  응용수업.cpp
+C:\PHIgit\Cstudy\Cstudy\응용수업.cpp(5,16): error C2440: '초기화 중': 'const char [4]'에서 'char *'(으)로 변환할 수 없습니다.
+C:\PHIgit\Cstudy\Cstudy\응용수업.cpp(5,16): message : 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+C:\PHIgit\Cstudy\Cstudy\응용수업.cpp(5,23): error C2440: '초기화 중': 'const char [4]'에서 'char *'(으)로 변환할 수 없습니다.
+C:\PHIgit\Cstudy\Cstudy\응용수업.cpp(5,23): message : 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).

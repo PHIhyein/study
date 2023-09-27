@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="javacss/login.css">
 </head>
 <body>
+    <div id="bg">
+    <fieldset>
     <form id="formlogin" class="hidden">
         <input required maxlength="19" type="text" placeholder="what's your name" />
         <input type="submit" value="LogIn"/>
     </form>
     <h1 id="hello" class="hidden"></h1>
 
-    <h2 id="clock"></h2>
+    <h2 id="clock">시간</h2>
 
     <form id="formTodo">
         <input type="text" placeholder="todo" required />
@@ -22,17 +24,25 @@
     <ul id="listTodo">
     </ul>
 
+    <div id="weather">
+        <span>날씨</span><br>
+        <span>지역</span>
+    </div>
+
+    <br>
+
     <div id="quote">
         <span></span>
         <span></span>
     </div>
-
+    </fieldset>
+    </div>
 </body>
 <!--자바스크립트 불러오기-->
-<script src="javascript/script.js"></script>
 <script src="javascript/greeting.js"></script>
 <script src="javascript/quote.js"></script>
 <script src="javascript/clock.js"></script>
 <script src="javascript/background.js"></script>
 <script src="javascript/todo.js"></script>
+<script src="javascript/weather.js"></script>
 </html>

@@ -6,4 +6,8 @@ const bgimg = document.createElement("img");    //태그부여
 
 bgimg.src = `js_img/${dailyimg}`;   //이름 합침
 
-document.body.append(bgimg);    //이미지 표시
+//document.body.append(bgimg);    //이미지 추가
+
+const pickbg = document.querySelector("#bg");
+pickbg.append(bgimg);
+//이미지를 div에 추가
